@@ -25,12 +25,12 @@ function get_member2(){
 // alert(get_member1());
 // alert(get_member2());
 
-function get_arg(arg){
-	return arg;
+function get_arg(arg, arg2){
+	return arg + arg2;
 }
 // alert(get_arg(1));
 // alert(get_arg(2));
-
+alert(get_arg(10,20));
 
 </script>
 	<title>JavaScript Example</title>
