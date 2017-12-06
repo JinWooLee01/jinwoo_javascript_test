@@ -4,9 +4,29 @@
     pageEncoding="UTF-8"%>
 <html>
 <head>
+<script type="text/javascript">
+function numbering(){
+	var i=0;
+	while(i<20){
+		document.write(1+"&nbsp;&nbsp;");
+		i++;	
+	}
+	document.write("<br>");
+}
+
+function get_member1(){
+	return 'egoing';//함수종료
+}
+
+function get_member2(){
+	return 'K8805';//함수종료
+}
+
+alert(get_member1());
+alert(get_member2());
+</script>
 	<title>JavaScript Example</title>
 </head>
 <body>
-
 </body>
 </html>
