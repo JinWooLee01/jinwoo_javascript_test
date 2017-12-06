@@ -51,15 +51,16 @@
 //함수는 코드의 재활용성을 높여준다!!!!
 
 function get_members(){
-	return ['egoing', 'k8804', 'jinwoo' ];
+	return ['egoing', 'k8804', 'jinwoo'];
 	
 }
 
 var members = get_members();
-document.write(members[0]+'<br>');
-document.write(members[1]+'<br>');
-document.write(members[2]+'<br>');
-document.write(members[0].toUpperCase());//대문자 변환
+
+for(var i =0; i<3; i++){
+	document.write(members[i].toUpperCase()+'<br>');
+}
+
 </script>
 	<title>JavaScript Example</title>
 </head>
