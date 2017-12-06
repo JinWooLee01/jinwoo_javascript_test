@@ -33,23 +33,33 @@
 // alert(get_arg(10,20));
 
 
-(function (){
-	var i =0;
-	while(i<5){
-		document.write("111@");
-		i++
-	}
-})();//익명 함수 - 이름이없고 바로 호출 1회성으로 사용.
-numbering = function (){
-	var i =0;
-	while(i<10){
-		document.write("why?<br>");
-		i++
-	}
-}
+// (function (){
+// 	var i =0;
+// 	while(i<5){
+// 		document.write("111@");
+// 		i++
+// 	}
+// })();//익명 함수 - 이름이없고 바로 호출 1회성으로 사용.
+// numbering = function (){
+// 	var i =0;
+// 	while(i<10){
+// 		document.write("why?<br>");
+// 		i++
+// 	}
+// }
 
 //함수는 코드의 재활용성을 높여준다!!!!
 
+function get_members(){
+	return ['egoing', 'k8804', 'jinwoo' ];
+	
+}
+
+var members = get_members();
+document.write(members[0]+'<br>');
+document.write(members[1]+'<br>');
+document.write(members[2]+'<br>');
+//배열 사용
 
 </script>
 	<title>JavaScript Example</title>
