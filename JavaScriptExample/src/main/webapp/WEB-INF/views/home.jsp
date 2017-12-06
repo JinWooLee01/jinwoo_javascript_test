@@ -51,13 +51,13 @@
 //함수는 코드의 재활용성을 높여준다!!!!
 
 function get_members(){
-	return ['egoing', 'k8804', 'jinwoo'];
+	return ['egoing', 'k8804'];
 	
 }
 
 var members = get_members();
 
-for(var i =0; i<3; i++){
+for(var i =0; i<members.length; i++){
 	document.write(members[i].toUpperCase()+'<br>');
 }
 
