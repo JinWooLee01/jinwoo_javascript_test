@@ -59,8 +59,7 @@ var members = get_members();
 document.write(members[0]+'<br>');
 document.write(members[1]+'<br>');
 document.write(members[2]+'<br>');
-//배열 사용
-
+document.write(members[0].toUpperCase());//대문자 변환
 </script>
 	<title>JavaScript Example</title>
 </head>
