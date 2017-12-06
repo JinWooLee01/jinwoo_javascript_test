@@ -65,11 +65,13 @@
 var li =['a', 'b', 'c'];
 // li.push('f');//배열에 인덱스 추가 1개의 값을 넣는다
 // li.unshift('z');//맨앞으로 z를 넣는다 인덱스는 알아서 커진다
-li.splice(1,2,'x','y');//1번인덱스부터 2개의 배열을 삭제하고 x,y를 넣는다
+// li.splice(1,2,'x','y');//1번인덱스부터 2개의 배열을 삭제하고 x,y를 넣는다
 // li = li.concat('g','h');//concat을 사용해서 여러개를 입력
-
-alert(li);
-
+// li.shift();//제일 '앞'에있는 데이터 제거
+// li.pop();//제일 '뒤'에 있는 데이터 제거
+// li.sort();//알파벳순서대로 정렬
+// li.revers();//역순으로 정렬
+document.write(li);
 
 </script>
 	<title>JavaScript Example</title>
