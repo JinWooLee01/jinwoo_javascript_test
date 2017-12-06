@@ -50,16 +50,26 @@
 
 //함수는 코드의 재활용성을 높여준다!!!!
 
-function get_members(){
-	return ['egoing', 'k8804'];
+// function get_members(){
+// 	return ['egoing', 'k8804'];
 	
-}
+// }
 
-var members = get_members();
+// var members = get_members();
 
-for(var i =0; i<members.length; i++){
-	document.write(members[i].toUpperCase()+'<br>');
-}
+// for(var i =0; i<members.length; i++){
+// 	document.write(members[i].toUpperCase()+'<br>');
+// }
+//배열 제어
+
+var li =['a', 'b', 'c'];
+// li.push('f');//배열에 인덱스 추가 1개의 값을 넣는다
+// li.unshift('z');//맨앞으로 z를 넣는다 인덱스는 알아서 커진다
+li.splice(1,2,'x','y');//1번인덱스부터 2개의 배열을 삭제하고 x,y를 넣는다
+// li = li.concat('g','h');//concat을 사용해서 여러개를 입력
+
+alert(li);
+
 
 </script>
 	<title>JavaScript Example</title>
