@@ -20,10 +20,44 @@
 </ul>
 </body>
 <script type="text/javascript">
-$('#execute_btn').click(function(){
-	$('#list li').text('jquery loading11 complete');
-})
-// $('#list li').text('jquery loading11 complete');
+function fnc(){
+	var input = 1;
+	var process = [
+		function(input){return input+11;},
+		function(input){return input*input;},
+		function(input){return input/2;}
+	];
+	
+	for(var i =0; i<process.length; i++){
+		var input = process[i](input);
+	}
+	return input;
+}
+// alert(fnc());
 
+
+
+
+var sortfunc = function(a,b){
+	return a-b;
+}
+var numbers = [20,10,9,8,7,6,5,4,3,2,1];
+// alert(numbers.sort(sortfunc));
+
+
+function a(val1){
+	console.log('a의 길이',a.length ,'아그먼트의 길이', arguments.length);
+}
+a('aaaaaa', 'bbbbbb','111111');
+
+//outter는 객체새성시에 리턴값을 주고 사라지는데 str수에 접근가능!!!!신기신기
+function outter(){
+		var str = 'coding everybody';
+	return function(){
+		alert(str);
+		}
+}
+var inner2 = outter();
+inner2();
 </script>
 </html>
