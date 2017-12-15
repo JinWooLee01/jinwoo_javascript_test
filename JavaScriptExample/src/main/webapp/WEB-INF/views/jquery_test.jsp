@@ -8,15 +8,15 @@
 <html>
 <head>
 <script type="text/javascript">
-function clickhandler(){
+function clickhandler(e){
 	alert('click~');
 }
-$(document).bind('ready',function(e){
-	$('#click_me').bind('click',clickhandler);
-	$('#click_stop').bind('click', function(e){
+$(document).ready(function(e){
+	$('#click_me').click(clickhandler);
+	$('#click_stop').click(function(e){
 	$('#click_me').unbind('click',clickhandler);	
 	});
-	$('#click_trigger').bind('click',function(e){
+	$('#click_trigger').click(function(e){
 	$('#click_me').trigger('click');
 	});	
 })
