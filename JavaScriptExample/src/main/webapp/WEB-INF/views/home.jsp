@@ -59,5 +59,21 @@ function outter(){
 }
 var inner2 = outter();
 inner2();
+
+//클로저를 활용한 private변수 만들기
+function movie_name(title){
+	return {
+		get_movie : function(){
+			return title;
+		},
+		set_movie : function(_title){
+			title = _title;
+		}
+	}
+}
+var matrix = movie_name('matrix good!!');
+alert(matrix.get_movie());
+
+
 </script>
 </html>
