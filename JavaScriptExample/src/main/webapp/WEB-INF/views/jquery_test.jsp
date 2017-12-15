@@ -8,6 +8,7 @@
 <html>
 <head>
 <script type="text/javascript">
+//제이쿼리 이벤트 핸들러 (헬퍼버전)
 function clickhandler(e){
 	alert('click~');
 }
@@ -20,12 +21,23 @@ $(document).ready(function(e){
 	$('#click_me').trigger('click');
 	});	
 })
+//어레이라는 내장함수에 랜덤이라는 함수원형을 추가한다 
+Array.prototype.random = function(){
+	var random = Math.floor(this.length*Math.random());
+	return this[random];
+}
+var arr =new Array('1','2','3','4','5','6');
+document.write(arr);
+
 </script>
 	<title>JavaScript JQuery Example</title>
 </head>
 <body>
+<input type = "button" value="change_background" onclick="$('#click_me').css('background-color','yellow')">
 <input type = 'button' value = 'click' id = 'click_me'><br>
 <input type = 'button' value = 'click_stop' id = 'click_stop'><br>
 <input type = 'button' value = 'click_triger' id = 'click_trigger'> 
+
+
 </body>
 </html>
