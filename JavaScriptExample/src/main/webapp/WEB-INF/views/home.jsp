@@ -7,6 +7,7 @@
 	<title>JavaScript Example</title>
 </head>
 <body>
+깃 허브 공부중
 <ul id='list'>
 	<li>coding</li>
 	<li>coding</li>
