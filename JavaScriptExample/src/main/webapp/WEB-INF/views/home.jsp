@@ -8,6 +8,7 @@
 </head>
 <body>
 <ul id='list'>
+	<li>li하나더 추가</li>
 	<li>li추가</li>
 	<li>coding</li>
 	<li>coding</li>
