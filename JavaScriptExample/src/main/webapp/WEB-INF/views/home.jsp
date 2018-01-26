@@ -9,6 +9,7 @@
 <body>
 깃 허브 공부중
 <ul id='list'>
+	<li>다시 실험</li>
 	<li>coding</li>
 	<li>coding</li>
 	<li>coding</li>
