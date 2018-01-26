@@ -9,6 +9,7 @@
 <body>
 깃 허브 공부중
 <ul id='list'>
+<li>동기화</li>
 	<li>li하나더 추가</li>
 	<li>li추가</li>
 	<li>다시 실험</li>
