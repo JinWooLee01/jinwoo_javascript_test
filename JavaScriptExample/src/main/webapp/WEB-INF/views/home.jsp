@@ -7,6 +7,7 @@
 	<title>JavaScript Example</title>
 </head>
 <body>
+깃 허브 공부중
 <ul id='list'>
 	<li>li하나더 추가</li>
 	<li>li추가</li>
